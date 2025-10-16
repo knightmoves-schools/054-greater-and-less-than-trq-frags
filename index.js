@@ -1,15 +1,23 @@
-if(18 > 17){
-    document.getElementById("result").innerHTML = 'oldEnough';
+function oldEnough(age) {
+    if (age > 17) {
+        return "old enough";
+    }
 }
 
-if(17 >= 17){
-    document.getElementById("result").innerHTML = 'underAge';
+function underAge(age) {
+    if (age < 18) {
+        return "under age";
+    }
 }
 
-if(50 < 65){
-    document.getElementById("result").innerHTML = 'legalSpeed';
+function legalSpeed(speed) {
+    if (speed <= 50) {
+        return "legal speed";
+    }
 }
 
-if(65 <= 65){
-    document.getElementById("result").innerHTML = 'isGoldenYears';
+function isGoldenYears(age) {
+    if (age >= 65) {
+        return "golden years";
+    }
 }
